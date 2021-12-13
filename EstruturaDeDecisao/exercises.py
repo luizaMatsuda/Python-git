@@ -90,11 +90,22 @@ elif media == 10:
     print('Aprovado com Distinção')
 '''
 
+'''
+# 6 - Faça um Programa que leia três números e mostre o maior deles.
 
+one = input('Digite o primeiro numero: ')
+two = input('Digite o primeiro numero: ')
+three = input('Digite o primeiro numero: ')
 
+if one > two and one > three:
+    print('O primeiro numero e maior que todos')
+elif two > one and two > three:
+    print('O segundo numero e maior que todos')
+elif three > one and three > two:
+    print('O terceiro numero e maior que todos')
 '''
 
-6 - Faça um Programa que leia três números e mostre o maior deles.
+'''
 7 - Faça um Programa que leia três números e mostre o maior e o menor deles.
 8 - Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.
 9 - Faça um Programa que leia três números e mostre-os em ordem decrescente.
@@ -109,7 +120,8 @@ Faça um programa que recebe o salário de um colaborador e o reajuste segundo o
     o percentual de aumento aplicado;
     o valor do aumento;
     o novo salário, após o aumento.
-    
+ '''
+'''
 12 - Faça um programa para o cálculo de uma folha de pagamento, sabendo que os descontos são do Imposto de Renda, que depende do salário bruto (conforme tabela abaixo) e 3% para o Sindicato e que o FGTS corresponde a 11% do Salário Bruto, mas não é descontado (é a empresa que deposita). O Salário Líquido corresponde ao Salário Bruto menos os descontos. O programa deverá pedir ao usuário o valor da sua hora e a quantidade de horas trabalhadas no mês.
 Desconto do IR:
 Salário Bruto até 900 (inclusive) - isento
@@ -122,7 +134,14 @@ Salário Bruto acima de 2500 - desconto de 20% Imprima na tela as informações,
         FGTS (11%)                      : R$  121,00
         Total de descontos              : R$  165,00
         Salário Liquido                 : R$  935,00
-Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
+'''
+
+
+
+
+'''
+13 - Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
+
 Faça um programa que lê as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e calcule a sua média. A atribuição de conceitos obedece à tabela abaixo:
   Média de Aproveitamento  Conceito
   Entre 9.0 e 10.0        A
